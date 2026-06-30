@@ -102,6 +102,14 @@ jupyter notebook "Body-Language-Decoder-main/Body Language Decoder Tutorial.ipyn
 
 An end-to-end custom keypoint-training pipeline for YOLOv8 (`ultralytics`), demonstrated here on a **quadruped/animal pose dataset** (39 keypoints — nose, antlers, ears, legs, paws, tail, etc.), going from CVAT annotations to a trained pose model.
 
+<p align="center">
+  <img src="assets/gifs/yolov8-multiperson-tracking-demo.gif" width="280" alt="YOLOv8 pose model tracking keypoints and IDs for multiple people in a street scene">
+</p>
+
+<p align="center">
+  <em>Same keypoint pipeline applied to multi-person tracking: per-person ID, bounding box, and skeleton on a live street scene.</em>
+</p>
+
 **Contents**
 - [`CVAT_to_cocoKeypoints.py`](<pose-detection-keypoints-estimation-yolov8-main/CVAT_to_cocoKeypoints.py>) — converts CVAT keypoint annotations to YOLO/COCO format
 - [`config.yaml`](<pose-detection-keypoints-estimation-yolov8-main/config.yaml>) — dataset config (39 keypoints, flip indices, class names)
