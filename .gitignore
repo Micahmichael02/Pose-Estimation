@@ -1,0 +1,49 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# ── Jupyter ────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS / Editor ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ── Model weights & checkpoints (re-downloadable / large) ──
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+runs/
+
+# ── Datasets & generated artifacts ──────────────────────
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+coords.csv
+body_language.pkl
+workout_output.mp4
+snapshot_*.jpg
+
+# ── Large raw media (keep only the small README assets) ─
+# assets/images/ and assets/gifs/ are tracked for the README;
+# raw source clips are not.
+assets/videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
